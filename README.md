@@ -1,4 +1,4 @@
-# data_assimilation
+# Data_assimilation
 
 This repository studies a data assimilation framework for a phase-field model of thrombus formation and blood flow.
 
