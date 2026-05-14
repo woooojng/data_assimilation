@@ -132,10 +132,10 @@ This scenario is particularly relevant for:
 #### Example Results
 
 <p align="center">
-  <img src="./Spectral_method/no_initial_condition/phi_phida_l2_t0.0.png" width="75%">
-  <img src="./Spectral_method/no_initial_condition/phi_phida_l2_t0.1.png" width="75%">
-  <img src="./Spectral_method/no_initial_condition/phi_phida_l2_t0.2.png" width="75%">
-  <img src="./Spectral_method/no_initial_condition/phi_phida_l2_t3.0.png" width="75%">
+  <img src="./Spectral_method/all_zero_initial_condition1/phi_phida_l2_t0.0.png" width="75%">
+  <img src="./Spectral_method/all_zero_initial_condition1/phi_phida_l2_t0.1.png" width="75%">
+  <img src="./Spectral_method/all_zero_initial_condition1/phi_phida_l2_t0.2.png" width="75%">
+  <img src="./Spectral_method/all_zero_initial_condition1/phi_phida_l2_t3.0.png" width="75%">
 </p>
 
 ---
