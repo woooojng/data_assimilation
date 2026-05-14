@@ -1,4 +1,4 @@
-# data_assimilation
+# Data_assimilation
 
 This repository studies a data assimilation framework for a phase-field model of thrombus formation and blood flow.
 
@@ -8,7 +8,7 @@ The governing system is based on the phase-field model introduced in *Local Well
 
 In the present work, the original model is modified by adding an additional diffusion term.
 
-The governing equations are:
+The original model is:
 
 ```math
 \rho\left(\frac{\partial u}{\partial t} + u \cdot \nabla u\right)
@@ -42,7 +42,10 @@ The governing equations are:
 Data assimilation was successfully implemented in the following two settings.
 
 ### 1. Case with prescribed initial conditions
-
+<img src="./Spectral_method/different_initial_condition/p_phi_phida_l2_t0.0.png" width="75%">
+<img src="./Spectral_method/different_initial_condition/p_phi_phida_l2_t0.1.png" width="75%">
+<img src="./Spectral_method/different_initial_condition/p_phi_phida_l2_t0.2.png" width="75%">
+<img src="./Spectral_method/different_initial_condition/p_phi_phida_l2_t4.0.png" width="75%">
 In this setting, the initial conditions are given in advance.
 
 - The data assimilation algorithm was successfully implemented with prescribed initial data.
@@ -51,7 +54,10 @@ In this setting, the initial conditions are given in advance.
 - This case demonstrates that the proposed framework performs reliably when sufficient initial information is available.
 
 ### 2. Case without prescribed initial conditions
-
+<img src="./Spectral_method/no_initial_condition/phi_phida_l2_t0.0.png" width="75%">
+<img src="./Spectral_method/no_initial_condition/phi_phida_l2_t0.1.png" width="75%">
+<img src="./Spectral_method/no_initial_condition/phi_phida_l2_t0.2.png" width="75%">
+<img src="./Spectral_method/no_initial_condition/phi_phida_l2_t3.0.png" width="75%">
 In this setting, the initial conditions are not given in advance.
 
 - The data assimilation algorithm was also successfully implemented without prescribed initial data.
