@@ -206,7 +206,7 @@ The H⁴ diagnostic provides insight into:
 - and stiffness evolution of the multiphysics PDE system.
 
 <p align="center">
-  <img src="./Spectral_method/all_zero_initial_condition2/phi_h4_vs_time.png" width="75%">
+  <img src="./Spectral_method/all_zero_initial_condition2/time_vs_phi_h4.png" width="75%">
 </p>
 
 The diagnostic confirms that the framework maintains stable high-order numerical behavior during long-time integration and data assimilation.
