@@ -251,7 +251,7 @@ git clone https://github.com/woooojng/data_assimilation.git
 ```
 ## Usage
 
-### Train the model at clonned directory in terminal:
+### Use Spectral method for the model at clonned directory in terminal:
 
 ```bash
 python3 spectral_video.py
