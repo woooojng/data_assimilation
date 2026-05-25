@@ -244,6 +244,18 @@ Future directions include:
 5. Parameter estimation using data assimilation techniques.
 
 ---
+### Clone
+
+```bash
+git clone https://github.com/woooojng/data_assimilation.git
+```
+## Usage
+
+### Train the model at clonned directory in terminal:
+
+```bash
+python3 spectral_video.py
+```
 
 # Author
 
